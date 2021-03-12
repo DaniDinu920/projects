@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/verilog/I2C/I2C/i2c_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="i2c_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/i2c_test/uut/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/i2c_sda" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i2c_sda</obj_property>
+      <obj_property name="ObjectShortName">i2c_sda</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/i2c_scl" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i2c_scl</obj_property>
+      <obj_property name="ObjectShortName">i2c_scl</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/scl2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">scl2</obj_property>
+      <obj_property name="ObjectShortName">scl2</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#55ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/bits_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bits_count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bits_count[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/i2c_sc1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i2c_sc1</obj_property>
+      <obj_property name="ObjectShortName">i2c_sc1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/en_rx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en_rx</obj_property>
+      <obj_property name="ObjectShortName">en_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/w_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">w_enable</obj_property>
+      <obj_property name="ObjectShortName">w_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/scl" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/scl1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">scl1</obj_property>
+      <obj_property name="ObjectShortName">scl1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/r_i2c_sda" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">r_i2c_sda</obj_property>
+      <obj_property name="ObjectShortName">r_i2c_sda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/frame_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">frame_count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">frame_count[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/r_add" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r_add[6:0]</obj_property>
+      <obj_property name="ObjectShortName">r_add[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/r_w_byte" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">r_w_byte</obj_property>
+      <obj_property name="ObjectShortName">r_w_byte</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/r_sda" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r_sda[6:0]</obj_property>
+      <obj_property name="ObjectShortName">r_sda[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/r_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/reg_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/receive_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">receive_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">receive_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/stop_bit" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">stop_bit</obj_property>
+      <obj_property name="ObjectShortName">stop_bit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/en_scl" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">en_scl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">en_scl[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/idle" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">idle[3:0]</obj_property>
+      <obj_property name="ObjectShortName">idle[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/start" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">start[3:0]</obj_property>
+      <obj_property name="ObjectShortName">start[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/transmisie" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">transmisie[3:0]</obj_property>
+      <obj_property name="ObjectShortName">transmisie[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/transmisie_addr_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">transmisie_addr_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">transmisie_addr_reg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/i2c_test/uut/receptie" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">receptie[3:0]</obj_property>
+      <obj_property name="ObjectShortName">receptie[3:0]</obj_property>
+   </wvobject>
+</wave_config>
